@@ -31,7 +31,7 @@ pip install Keras
 
 # 1) Deploy the model and classify CellRaft images
 
-To understand how to deploy our model (or your own equivalent model), follow along the notebook titled "Implementation of Classifiers". This notebook runs through a few example images hosted on this repo, returning their predicted classification. However, when running through the entire dataset of CellRaft images, we used a script with the same code to run in the background.
+To understand how to deploy our model (or your own equivalent model), follow along the notebook titled "Implementation_of_Classifiers.ipynb". This notebook runs through a few example images hosted on this repo, returning their predicted classification. However, when running through the entire dataset of CellRaft images, we used a script with the same code to run in the background.
 
 ### Note:
 
@@ -41,7 +41,7 @@ While training the models is best done on GPU instances, this is not necessary f
 
 Create a folder with directories inside for each class. Manually curate your training dataset and keep images in these folders as per their assigned class. Set aside 20% of images in each class for downstream testing of your model. If using limited numbers of training data, you can augment the size of the training dataset by flipping, rotating, and adjusting brightness/contrast of images. 
 
-Follow along the notebook titled "Training the classifiers". Please note that this notebook is meant as a guide. You will have to supply your own training data as our training data is not yet hosted.
+Follow along the notebook titled "Training_classifiers.ipynb". Please note that this notebook is meant as a guide. You will have to supply your own training data as our training data is not yet hosted.
 
 To use transfer learning to further train our pre-trained model for your specific cell lines/phenotypes, follow along this nifty article for the adjustments you would need to make to our code: https://towardsdatascience.com/keras-transfer-learning-for-beginners-6c9b8b7143e
 
