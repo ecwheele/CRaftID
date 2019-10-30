@@ -36,3 +36,5 @@ Refer to the notebooks within each section:
 - targeted_sequencing_analysis
 - image_processing
 - neural_net_classifier
+
+Runtime is not more than a few minutes total for the single image dataset provided here. 
