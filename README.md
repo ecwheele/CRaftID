@@ -9,7 +9,7 @@ Software and code associated with CRaftID Paper
 
 # Install Instructions:
 
-For targeted_sequencing_analysis and image_processing, refer to the environment YAML file included in this repository. Or create an environment with minimal requirements:
+For targeted_sequencing_analysis and image_processing, refer to the environment YAML file included in this repository. Or create an environment with minimal requirements (Takes a few minutes to install):
 ```bash
 conda create -n CRaftID_paper_py3 -c conda-forge \
   python=3.6.8 biopython opencv=3.4.1 ipykernel tqdm
