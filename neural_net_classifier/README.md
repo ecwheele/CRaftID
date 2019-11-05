@@ -1,4 +1,8 @@
 # 0) Install Instructions
+## Minimum Requirements
+Machine running Ubuntu (16.04 or greater), macOS (Sierra or later), Windows 7 or later, or Rasbian 9.0 or later
+If running Ubuntu, glibc >= 2.17
+
 ## If using anaconda (recommended), install the following packages
 conda install -c conda-forge opencv
 
